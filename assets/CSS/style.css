@@ -1,6 +1,10 @@
 
 body {
-    
+}
+
+h1 {
+    font-size: 25px;
+    word-break: break-all;
 }
 
 input[type=text], select, textarea {
@@ -37,9 +41,25 @@ input[type=submit]:hover {
     size: 40px;
 }
 
-h1 {
-    color: aqua;
+.row {
+    margin: 8px -16px;
+    padding: 8px;
 }
+
+.column {
+    float: left;
+    padding: 10px;
+    width: 50%;
+  }
+  
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
 
 
 
