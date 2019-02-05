@@ -95,6 +95,18 @@ input[type=submit]:hover {
       width: 150px;
   }
 
+.container{
+    position: relative;
+}
+
+.text-block{
+    position: relative;
+    background-color: black;
+    color: white;
+    width: 35%;
+    border-left: 10px;
+}
+
 
 
 
