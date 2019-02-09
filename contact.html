@@ -1,50 +1,59 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
-    <head>
-       <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>contact_form</title>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>contact_form</title>
 
-        <link rel="stylesheet" type="text/css" href="assets/CSS/style.css">
-    </head>
+  <link rel="stylesheet" type="text/css" href="assets/CSS/style.css">
+</head>
 
-    <body background="/C:/Users/lyn1_/Desktop/code/Assignment/Basic-Portfolio/assets/Images/spiration-light.png">
+<body background="/C:/Users/lyn1_/Desktop/code/Assignment/Basic-Portfolio/assets/Images/spiration-light.png">
+<header>
+     <div class="content">
+       <div class="name"></div>
+       <div class="about"></div>
+       <div class="portfolio"></div>
+       <div class="contact"></div>
+     </div>
+  <!-- <div class=" nav nav-tabs">
+      <ul class="nav-list">
+    <li><a class="a">Simisola Kajogbola</a></li>
+    <li><a class="b" href="index.html">About</a></li>
+    <li><a class="c" href="portfolio.html">Portfolio</a></li>
+    <li><a class="d" href="contact.html">Contact</a></li>
+  </div> -->
+  </header>
 
-        <div class="nav">
-            <a class="a"href="#">Simisola Kajogbola</a>
-            <a class="b" href="#">About</a>
-            <a class="c" href="#">Portfolio</a>
-            <a class="d" href="#">Contact</a>
-        </div>
+  
+  <div class="main_content">
+    <h1>Contact</h1>
+    <hr>
 
-        <br><br>
-        <div class="main_content">
-            <h1>Contact</h1>
-            <hr>
 
-                
-                        <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+    <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
 
-                        <div class="row">
-                          <label  class="required" for="fullname">Name</label>
-                          <input type="text" id="fullname" name="name" placeholder="John Smith">
-                        </div>
-                        
-                        <div class="row">
-                          <label class= "required" for="email">Email</label>
-                          <input type="text" id="email" name="email" placeholder="example@gmail.com">
-                        </div>
-                        
-                        <div class="row">
-                          <label  class="required" for="message">Message</label>
-                          <textarea id="message" name="subject" placeholder="" style="height:200px"></textarea>
-                        </div>
-                      
-                          <input id="submit_button" type="submit" value="Submit">
+      <div class="row">
+        <label class="required" for="fullname">Name</label>
+        <input type="text" id="fullname" name="name" placeholder="John Smith">
+      </div>
 
-                        </form>
-        </div>
+      <div class="row">
+        <label class="required" for="email">Email</label>
+        <input type="text" id="email" name="email" placeholder="example@gmail.com">
+      </div>
 
-            <footer class="footer"></footer>
-    </body>
+      <div class="row">
+        <label class="required" for="message">Message</label>
+        <textarea id="message" name="subject" placeholder="" style="height:200px"></textarea>
+      </div>
+
+      <input id="submit_button" type="submit" value="Submit">
+
+    </form>
+  </div>
+
+  <footer class="footer"></footer>
+</body>
+
 </html>
