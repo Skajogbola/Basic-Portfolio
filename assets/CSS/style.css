@@ -186,6 +186,20 @@ h3{
 .pix5{
   float: left;
 }
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 640px) {
+  html{background: green;}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+  html {background: blue;}
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 980px) {
+  html {background: orange;}
+}
 
 
 
